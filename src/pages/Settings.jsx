@@ -23,7 +23,7 @@ function Settings() {
   async function onSubmit(values, { setErrors }) {
     try {
       const { data } = await axios.put(
-        `https://react-project-backend-gpu1.onrender.com/api/user`,
+        `https://react-project-backend-1-ivv0.onrender.com/api/user`,
         {
           user: values,
         }

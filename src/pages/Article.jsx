@@ -13,7 +13,7 @@ function Article() {
 
   const getArticleBySlug = async (slug) => {
     const { data } = await axios.get(
-      `https://react-project-backend-gpu1.onrender.com/api/articles/${slug}`
+      `https://react-project-backend-1-ivv0.onrender.com/api/articles/${slug}`
     );
 
     console.log("getArticleBySlug", { data });

@@ -4,7 +4,7 @@ import axios from "axios";
 
 const getCurrentUser = async () => {
   const { data } = await axios.get(
-    `https://react-project-backend-gpu1.onrender.com/api/user`
+    `https://react-project-backend-1-ivv0.onrender.com/api/user`
   );
 
   //   console.log("getCurrentUser", { data });

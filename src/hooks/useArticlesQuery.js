@@ -3,7 +3,7 @@ import axios from "axios";
 
 const getAllArticles = async () => {
   const { data } = await axios.get(
-    `https://react-project-backend-gpu1.onrender.com/api/articles/feed`
+    `https://react-project-backend-1-ivv0.onrender.com/api/articles/feed`
   );
 
   console.log("getCurrentUser", { data });
